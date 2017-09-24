@@ -1,0 +1,46 @@
+body {
+	font-family: 'Ubuntu Mono', monospace;
+}
+header {
+height 160px;
+border-bottom: 5px solid #EBEBEB;
+padding-top : 10px;
+}
+header .logo {
+	width : 40px;
+}
+
+header .brand-name {
+	font-size : 20px;
+	margin-left : 10px;
+	margin-top : 3px;
+}
+.text-center {
+	text-align: center;
+}
+.hero {
+	 background-color : #f7f5f5;
+	padding: 50px;
+	border-bottom: 5px solid #EBEBEB;
+}
+.search-input-group {
+	// background-color: #dadada;
+	margin-top: 20px;
+}
+
+.button-black {
+  background-color: black;
+  border-color: black;
+}
+.button-black.button-clear,
+.button-black.button-outline {
+  background-color: transparent;
+  color: black;
+}
+.button-black.button-clear {
+  border-color: transparent;
+}
+.or {
+	padding: 10px;
+	margin-top: 25px;
+}

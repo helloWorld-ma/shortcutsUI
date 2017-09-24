@@ -3,30 +3,89 @@
 <head>
 	<title>shortcuts UI</title>
 	<!-- Google Fonts -->
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 
 	<!-- CSS Reset -->
-	<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+	<link rel="stylesheet" href="http://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
 
 	<!-- Milligram CSS minified -->
-	<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
-
+	<link rel="stylesheet" href="http://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+	
+	<!-- main style -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
+	<header class="clearfix">
+		<div class="container">
+			<div class="logo float-left">
 
-  <div class="row">
-    <div class="column">.column</div>
-    <div class="column">.column</div>
-    <div class="column">.column</div>
-    <div class="column">.column</div>
-  </div>
+				<img src="images/logo-sm.png">
+			</div>
+			<div class="brand-name float-left">Shortcuts.<b>io</b></div>
+		</div>
 
-  <div class="row">
-    <div class="column">.column</div>
-    <div class="column column-50 column-offset-25">.column column-50 column-offset-25</div>
-  </div>
-
-</div>
+	</header>
+	<section class="text-center hero">
+		<p>
+			<em>
+				Shortcuts.io is a curated directory of the  most used shortcuts in multiple softwares/apps that will help you boost your workflow speed .
+			</em>
+		</p>
+	</section>
+	<section class="search">
+		<div class="container">
+			<div class="row">
+				<div class="search-input-group column column-80 column-offset-10">
+					<div class="column column-10 float-left">
+						<label class="float-right">
+							Search
+						</label>
+					</div>
+					<div class="column column-40 float-left">
+						<input type="text" placeholder="Software , Tag , shortcut" id="nameField">
+					</div>
+					<div class=" column-10 float-left">
+						<input class="button-primary" type="submit" value="Search">
+					</div>
+					<div class=" column-10 float-left">
+						<b class="or">or</b>
+					</div>
+					
+					<div class=" column-30 float-left">
+						<button class="button-black" >Add a new shortcut</button>
+						
+					</div>
+					
+				</div>
+			</div>
+			<hr>
+		</div>
+		<section>
+			<div class="container">
+				<div class="shortcut column">
+				col	
+				</div>
+				<div class="shortcut column">
+				col	
+				</div>
+				<div class="shortcut column">
+				col	
+				</div>
+				<div class="shortcut column">
+				col	
+				</div>
+				<div class="shortcut column">
+				col	
+				</div>
+				<div class="shortcut column">
+				col	
+				</div>
+				<div class="shortcut column">
+				col	
+				</div>
+			</div>	
+		</section>
+	</section>
 </body>
 </html>
